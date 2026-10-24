@@ -1,0 +1,35 @@
+{
+    "name": "VegBox — Fresh groceries",
+    "short_name": "VegBox",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F6F1E7",
+    "theme_color": "#143D2B",
+    "description": "Fresh vegetables from local farms, delivered to your door.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

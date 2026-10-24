@@ -1,0 +1,40 @@
+name: vegbox
+description: "VegBox — fresh vegetables from local farms, delivered to your door."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0+1
+  get_it: ^8.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - asset/data/
+    - asset/image/
+    - asset/image/vegetables/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: asset/font/Poppins-Regular.ttf
+        - asset: asset/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: asset/font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: asset/font/Poppins-Bold.ttf
+          weight: 700
+    - family: DMSerifDisplay
+      fonts:
+        - asset: asset/font/DMSerifDisplay-Regular.ttf
